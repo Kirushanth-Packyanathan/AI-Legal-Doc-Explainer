@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.INFO)
 
 # Initialize the LLM
 llm = ChatGoogleGenerativeAI(
-    model="models/gemini-2.5-pro",
-    api_key=llm_api_key,  # Correct param name
+    model="models/gemini-1.5-flash",
+    api_key=llm_api_key,
     temperature=0
 )
 
